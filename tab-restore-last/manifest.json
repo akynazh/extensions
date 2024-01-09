@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+
+  "name": "Tab Restore Last",
+  "description": "Tab Restore Last helps to restore last closed tabs and window sessions.",
+  "version": "0.0.1",
+
+  "permissions": [
+    "sessions",
+    "tabs"
+  ],
+
+  "action": {
+    "default_title": "Click to restore last tab"
+  },
+  "background": {
+      "service_worker": "restore.js"
+  },
+
+  "icons": {
+    "100": "img/100.png"
+  }
+
+
+}
